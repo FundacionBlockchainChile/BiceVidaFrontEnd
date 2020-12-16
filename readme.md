@@ -1,3 +1,5 @@
+#Please use yarn install
+
 # Git Commands
 
 git init - Create a new git repo
