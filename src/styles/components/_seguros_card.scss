@@ -1,0 +1,60 @@
+.card {
+  width: 328px;
+  height: 550px;
+  background: #ffffff;
+  border: 1px solid #dde3ed;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: justify;
+}
+
+.image {
+  width: 328px;
+  height: 192px;
+  background: rebeccapurple;
+}
+
+.titulo {
+  width: 216px;
+  height: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #060b25;
+  margin-left: 20px;
+}
+
+.parrafo {
+  width: 90%;
+  height: auto;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #58606e;
+  margin-left: 15px;
+}
+
+.label {
+  position: relative;
+  top: -70px;
+  left: 70px;
+  margin-top: -50px;
+  margin-left: -50px;
+
+  display: inline-block;
+  padding: 0 5px;
+  height: 20px;
+  background: $bice-blue;
+  border-radius: 4px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.2px;
+  color: #f5f7fa;
+  text-align: center;
+}

@@ -1,0 +1,38 @@
+.button {
+  background-color: $blue;
+  border: none;
+  color: white;
+  display: inline-block;
+  font-size: $font-size-large;
+  font-weight: 300;
+  line-height: 1;
+  padding: $s-size;
+  text-decoration: none;
+}
+
+.button--link {
+  background: none;
+}
+
+.button--secondary {
+  background: #888888;
+}
+
+.buttonBice {
+  display: flex;
+  flex-direction: row;
+  padding: 8px 32px;
+  width: 113px;
+  height: 48px;
+  background: #1f61f7;
+  box-shadow: 10px 10px 16px rgba(18, 25, 84, 0.07);
+  border-radius: 1000px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,28 @@
+.selector-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 40px;
+}
+
+.selector-form-input {
+  background: #ffffff;
+  border: 1px solid #dde3ed;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: 'Poppins', sans-serif;
+  height: 48px;
+  margin-right: 40px;
+  color: $gray;
+}
+
+option:not(:first-of-type) {
+  color: $bice-blue;
+}
+
+.selector-form-input:focus {
+  outline: none !important;
+  border: 2px solid $bice-blue;
+  box-shadow: 0 0 10px #719ece;
+}
